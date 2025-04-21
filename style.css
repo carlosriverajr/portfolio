@@ -171,12 +171,13 @@ span {
 }
 
 .typing-text {
-    font-size: 3.4rem;
+    font-size: clamp(2rem, 5vw, 3.4rem); /* Responsive font size */
     font-weight: 600;
     min-width: 280px;
     position: relative;
     display: inline-block;
     color: #1a1a1a;
+    white-space: nowrap; /* Prevents wrapping */
 }
 
 .typing-text span::before {
