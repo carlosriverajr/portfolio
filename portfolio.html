@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Portfolio - Carlos Rivera</title>
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo">Carlos Rivera</a>
+
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="portfolio.html" class="active">Portfolio</a>
+    </nav>
+  </header>
+
+  <section id="portfolio">
+    <h2 class="section-title">My Work</h2>
+    <div class="portfolio-grid">
+      <div class="portfolio-card">
+        <a href="product-development.html">
+          <img src="images/cards/prod.jpg" alt="Product Development" />
+          <h3>Product Development</h3>
+          <p>Short description of what the project is about and what you contributed.</p>
+          <span class="card-link">View</span>
+        </a>
+      </div>
+      <div class="portfolio-card">
+        <a href="ai-prototyping.html">
+          <img src="images/cards/prototyping.png" alt="AI Prototyping" />
+          <h3>AI Prototyping</h3>
+          <p>Description of the tools or problem this project addressed.</p>
+          <span class="card-link">View</span>
+        </a>
+      </div>
+      <div class="portfolio-card">
+        <a href="data-analysis.html">
+          <img src="images/cards/data-analysis.svg" alt="Data Analysis" />
+          <h3>Data Analysis</h3>
+          <p>Description of the tools or problem this project addressed.</p>
+          <span class="card-link">View</span>
+        </a>
+      </div>      
+      <!-- Add more cards as needed -->
+    </div>
+  </section>
+  
+  <script>
+    const menuIcon = document.querySelector('.menu-icon');
+    const navbar = document.querySelector('.navbar');
+
+    menuIcon.addEventListener('click', () => {
+      navbar.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>

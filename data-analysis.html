@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css" />
+  <title>Data Analysis - Carlos Rivera</title>
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo">Carlos Rivera</a>
+    <i class="fas fa-bars menu-icon"></i>
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="portfolio.html" class="active">Portfolio</a>
+    </nav>
+  </header>
+
+  <section id="portfolio-category">
+    <h2 class="section-title">Data Analysis Examples</h2>
+
+    <div class="project">
+      <img src="images/data-analysis/wl.png" alt="Sales Dashboard" />
+      <div class="project-text">
+        <h3>Watchlist Adoption Analysis</h3>
+
+        <p><strong>Insight:</strong><br>
+          <ul>
+            <li>Discovered that ~80% of users had not set up a watchlist, signaling low engagement with a key feature.</li>
+          </ul>
+        </p>
+        
+        <br>
+
+        <p><strong>Hypotheses:</strong><br>
+          <ul>
+            <li>Feature was not easily discoverable.</li>
+          </ul>
+          <ul>
+            <li>Feature was not well integrated into daily workflows.</li>
+          </ul>
+        </p>
+
+        <br>
+
+        <p><strong>Action Taken:</strong><br>
+          <ul>
+            <li>Integrated the watchlist into key tools like the Deal Screener, increasing visibility and making it relevant to users' workflows.</li>
+          </ul>
+        </p>
+      </div>
+    </div>
+
+    <div class="project">
+      <img src="images/data-analysis/subscriptions.png" alt="Data Cleaning Script" />
+      <div class="project-text">
+        <h3>Subscriptions & Website Usage</h3>
+
+        <p><strong>Insight:</strong><br>
+          <ul>
+            <li>Identified a negative correlation between the number of email subscriptions and overall website usage.
+            </li>
+          </ul>
+        </p>
+        
+        <br>
+
+        <p><strong>Hypotheses:</strong><br>
+          <ul>
+            <li>Clients rely heavily on email alerts, reducing the need to visit the website.</li>
+          </ul>
+          <ul>
+            <li>Email overload causes users to tune out and disengage.</li>
+          </ul>
+        </p>
+
+        <br>
+
+        <p><strong>Action Taken:</strong><br>
+          <ul>
+            <li>Validated both hypotheses through customer interviews, confirming the need for change.</li>
+          </ul>
+          <ul>
+            <li>Sparked strategic discussions on how to make the website more compelling for email-first users.</li>
+          </ul>
+          <ul>
+            <li>Initiated product exploration to better manage email volume and improve targeting.</li>
+          </ul>
+        </p>
+      </div>
+    </div>
+
+  </section>
+
+  <script>
+    const menuIcon = document.querySelector('.menu-icon');
+    const navbar = document.querySelector('.navbar');
+    menuIcon.addEventListener('click', () => {
+      navbar.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>

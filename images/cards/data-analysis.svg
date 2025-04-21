@@ -1,0 +1,62 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#f8ecd9" />
+  
+  <!-- Abstract shapes -->
+  <path d="M100,100 C150,50 200,150 250,100 S350,50 400,100" fill="#f5a742" opacity="0.9" />
+  <path d="M650,700 C700,650 750,700 700,600 S650,550 600,600" fill="#f5a742" opacity="0.9" />
+  <path d="M100,650 C50,700 150,750 100,600" fill="#4178a0" opacity="0.9" />
+  <circle cx="700" cy="150" r="50" fill="#4178a0" opacity="0.9" />
+  <circle cx="150" cy="500" r="30" fill="#f5a742" opacity="0.9" />
+  
+  <!-- Central Brain/Data Node -->
+  <circle cx="400" cy="400" r="180" fill="none" stroke="#1d3241" stroke-width="8" />
+  
+  <!-- Data Nodes -->
+  <circle cx="400" cy="400" r="15" fill="#1d3241" />
+  <circle cx="300" cy="350" r="12" fill="#1d3241" />
+  <circle cx="480" cy="320" r="10" fill="#1d3241" />
+  <circle cx="450" cy="480" r="14" fill="#1d3241" />
+  <circle cx="330" cy="450" r="11" fill="#1d3241" />
+  <circle cx="520" cy="400" r="13" fill="#1d3241" />
+  <circle cx="280" cy="410" r="9" fill="#1d3241" />
+  
+  <!-- Connection Lines -->
+  <line x1="400" y1="400" x2="300" y2="350" stroke="#1d3241" stroke-width="4" />
+  <line x1="400" y1="400" x2="480" y2="320" stroke="#1d3241" stroke-width="4" />
+  <line x1="400" y1="400" x2="450" y2="480" stroke="#1d3241" stroke-width="4" />
+  <line x1="400" y1="400" x2="330" y2="450" stroke="#1d3241" stroke-width="4" />
+  <line x1="400" y1="400" x2="520" y2="400" stroke="#1d3241" stroke-width="4" />
+  <line x1="400" y1="400" x2="280" y2="410" stroke="#1d3241" stroke-width="4" />
+  
+  <!-- Chart Elements -->
+  <rect x="570" y="300" width="150" height="200" fill="none" stroke="#1d3241" stroke-width="6" rx="5" ry="5" />
+  <line x1="590" y1="350" x2="700" y2="350" stroke="#1d3241" stroke-width="4" />
+  <line x1="590" y1="400" x2="700" y2="400" stroke="#1d3241" stroke-width="4" />
+  <line x1="590" y1="450" x2="700" y2="450" stroke="#1d3241" stroke-width="4" />
+  
+  <!-- Bar Graph -->
+  <rect x="100" y="300" width="180" height="200" fill="none" stroke="#1d3241" stroke-width="6" />
+  <line x1="130" y1="480" x2="250" y2="480" stroke="#1d3241" stroke-width="4" />
+  <line x1="130" y1="320" x2="130" y2="480" stroke="#1d3241" stroke-width="4" />
+  <rect x="150" y="430" width="20" height="50" fill="#4178a0" />
+  <rect x="180" y="380" width="20" height="100" fill="#4178a0" />
+  <rect x="210" y="350" width="20" height="130" fill="#f5a742" />
+  
+  <!-- Magnifying Glass -->
+  <circle cx="200" cy="600" r="60" fill="none" stroke="#1d3241" stroke-width="8" />
+  <line x1="240" y1="640" x2="280" y2="680" stroke="#1d3241" stroke-width="10" />
+  
+  <!-- Lightbulb -->
+  <path d="M400,160 C360,160 330,190 330,230 C330,260 345,280 360,300 L360,330 L440,330 L440,300 C455,280 470,260 470,230 C470,190 440,160 400,160 Z" fill="#f5a742" stroke="#1d3241" stroke-width="6" />
+  <rect x="360" y="330" width="80" height="20" fill="#4178a0" stroke="#1d3241" stroke-width="4" />
+  <rect x="370" y="350" width="60" height="10" fill="#4178a0" stroke="#1d3241" stroke-width="4" />
+  
+  <!-- Gear -->
+  <path d="M650,550 C650,542 653,535 655,528 L635,515 L645,495 L668,502 C673,497 679,494 685,492 L685,470 L705,470 L705,492 C711,494 717,497 722,502 L745,495 L755,515 L735,528 C737,535 740,542 740,550 C740,558 737,565 735,572 L755,585 L745,605 L722,598 C717,603 711,606 705,608 L705,630 L685,630 L685,608 C679,606 673,603 668,598 L645,605 L635,585 L655,572 C653,565 650,558 650,550 Z" fill="#f5a742" stroke="#1d3241" stroke-width="6" />
+  <circle cx="695" cy="550" r="20" fill="#1d3241" />
+  
+  <!-- Data Flow Lines -->
+  <path d="M530,400 C580,370 610,450 650,450" fill="none" stroke="#1d3241" stroke-width="5" stroke-dasharray="10,8" />
+  <path d="M230,400 C280,370 310,450 350,450" fill="none" stroke="#1d3241" stroke-width="5" stroke-dasharray="10,8" />
+</svg>
