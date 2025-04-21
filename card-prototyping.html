@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css" />
+  <title>AI Prototyping - Carlos Rivera</title>
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo">Carlos Rivera</a>
+    <i class="fas fa-bars menu-icon"></i>
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="portfolio.html" class="active">Portfolio</a>
+    </nav>
+  </header>
+
+  <section id="portfolio-category">
+    <h2 class="section-title">AI Prototyping Examples</h2>
+
+    <div class="project">
+      <img src="images/prototypes/grouped.png" alt="AI Chatbot" />
+      <div class="project-text">
+        <h3>Group by Deal</h3>
+        <p>Clients needed a better way to view related financial instruments. I created a prototype that grouped individual debt instruments by deal. User testing validated the approach with users reporting improved comprehension and workflow efficiency.</p>
+      </div>
+    </div>
+
+    <div class="project">
+      <img src="images/prototypes/flexed.png" alt="Vision AI" />
+      <div class="project-text">
+        <h3>Flexed View</h3>
+        <p>Clients needed a clearer way to understand how bond and loan terms change over time. I built a prototype that highlighted key “before and after” values, making changes easy to track and compare. User testing confirmed the approach improved clarity and made workflows more efficient by saving time.</p>
+      </div>
+    </div>
+
+  </section>
+
+  <script>
+    const menuIcon = document.querySelector('.menu-icon');
+    const navbar = document.querySelector('.navbar');
+    menuIcon.addEventListener('click', () => {
+      navbar.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
